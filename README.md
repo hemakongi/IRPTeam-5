@@ -24,7 +24,7 @@ high.
 ->  APB Protocol
 
 Advanced Pheripheral Bus-
-The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.WE are interfacing the timer with APB.
+The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.We are interfacing the timer with APB.
 
 
 ->  Files
