@@ -41,3 +41,18 @@ Advanced Pheripheral Bus
 The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.WE are interfacing the timer with APB.
 
 
+Files
+
+top1_tb.v - It is our main testbench file.
+
+top.v - It is out top file where interfacing of all the modules is done.
+
+prescaler1.v - It is a clock divider file which converts 100 MHz(inbuilt fpga frequency) to 30 MHz.
+
+prescaler.v - It is a clock divider file which converts 30Mhz to 1 Hz.
+
+counter1.v - Counter which generates count for every second.
+
+comparator.v - Compares timer_in and the count value and generates the trig when both the values matches.
+
+
