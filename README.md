@@ -36,3 +36,8 @@ It takes timer_in(user input) and counter output 'out' as inputs and compares th
 high.
 
 
+** APB Protocol
+Advanced Pheripheral Bus
+The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.WE are interfacing the timer with APB.
+
+
