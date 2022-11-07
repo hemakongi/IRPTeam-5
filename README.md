@@ -2,7 +2,7 @@
 
 DESIGN AND IMPLEMENTATION OF TIMER
 
-Difference Between RTC and Timer
+> Difference Between RTC and Timer
 
 
 ->RTC
@@ -18,7 +18,7 @@ Difference Between RTC and Timer
 
 * Timer consists of prescaler,counter,registers,comparator and trigger generator.
 
-Timer Components
+> Timer Components
 
 1)Prescaler
 
