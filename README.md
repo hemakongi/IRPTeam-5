@@ -51,6 +51,8 @@ The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Ar
 
 * prescaler.v - It is a clock divider file which converts 30Mhz to 1 Hz.
 
+* APB.v - APB protocol file.
+
 * counter1.v - Counter which generates count for every second.
 
 * comparator.v - Compares timer_in and the count value and generates the trig when both the values matches.
