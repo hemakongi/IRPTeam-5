@@ -12,15 +12,18 @@ PCLK (30 MHz) is the main input to the Prescaler.
 newclk_k(1 Hz) is the output of 2 prescalers and that is given as the input to the counter.
 
 2)Counter
+
 A counter has an initial value of 0 at the time of reset. It's value keeps on incrementing by 1 at each clock cycle.Here for every 1 sec the counter value increments until it is reset. output of counter is stored in register named as 'out'.newclk_k (1 Hz frequency clock) is the input to the counter.
 
 3)Comparator
+
 It takes timer_in(user input) and counter output 'out' as inputs and compares them every second. When the count values matches the input given, trigger (trig)is made
 high.
 
 
 ->  APB Protocol
-Advanced Pheripheral Bus
+
+Advanced Pheripheral Bus-
 The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.WE are interfacing the timer with APB.
 
 
