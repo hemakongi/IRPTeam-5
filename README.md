@@ -8,8 +8,7 @@ IRPTeam-5
 1)Prescaler
 
 Prescaler is used to divide the clock, it is an electronic counting circuit that reduces a high frequency electrical signal to a lower frequency by integer division. The prescaler takes the basic timer clock frequency (which may be the CPU clock frequency) and divides it by some value before feeding it to the timer, according to how the prescaler is configured.Here we are taking 30MHz clock  input and to comapare the input to the value given by the user, we are scaling this to 1Hz. For this we are using two prescalers.It is used to slow down the clock.
-
-PCLK (30 MHz) is the main input to the Prescaler
+PCLK (30 MHz) is the main input to the Prescaler.
 newclk_k(1 Hz) is the output of 2 prescalers and that is given as the input to the counter.
 
 2)Counter
