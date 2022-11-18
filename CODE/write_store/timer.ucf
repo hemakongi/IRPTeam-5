@@ -1,0 +1,255 @@
+NET "PCLK_k" LOC = "E3" | IOSTANDARD =LVTTL | PULLUP;
+NET "PRESETn" LOC = "R13" | IOSTANDARD =LVTTL | PULLUP;
+NET "PSEL" LOC = "R15" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWRITE" LOC = "P15" | IOSTANDARD =LVTTL | PULLUP;
+NET "PENABLE" LOC = "R16" | IOSTANDARD =LVTTL | PULLUP;
+NET "PADDR[1]" LOC = "N16" | IOSTANDARD =LVTTL | PULLUP;
+NET "PADDR[0]" LOC = "N14" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[7]" LOC = "T11" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[6]" LOC = "R12" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[5]" LOC = "T14" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[4]" LOC = "T15" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[3]" LOC = "T16" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[2]" LOC = "N15" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[1]" LOC = "M16" | IOSTANDARD =LVTTL | PULLUP;
+NET "PWDATA[0]" LOC = "V17" | IOSTANDARD =LVTTL | PULLUP;
+NET "store[7]" LOC = "U18" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[6]" LOC = "R17" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[5]" LOC = "P17" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[4]" LOC = "U11" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[3]" LOC = "V16" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[2]" LOC = "M13" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[1]" LOC = "R10" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "store[0]" LOC = "R11" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;
+NET "trig" LOC = "P14" | IOSTANDARD =LVTTL | SLEW=SLOW | DRIVE=8;                                                                                                                                                                             
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
