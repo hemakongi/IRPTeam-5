@@ -23,7 +23,7 @@ module top1(
 
 
 
-input PCLK,
+input PCLK_k,
 //input PCLK,
 input PRESETn,
 input PSEL,
@@ -34,10 +34,10 @@ input [7:0] PWDATA,
 
 output trig,
 //output [7:0] PRDATA,
-output [7:0] timer_in,
+/*output [7:0] timer_in,
 output [7:0] c_enable,
 output newclk_k,
-output [7:0] out,
+output [7:0] out,*/
 //output [7:0] out1,
 output [7:0] store
 
@@ -45,18 +45,18 @@ output [7:0] store
 );
 
 wire rstn;
-/*wire[7:0] timer_in;
+wire[7:0] timer_in;
 wire [7:0] c_enable;
 wire newclk_k;
-wire [7:0] out;*/
+wire [7:0] out;
 //wire [7:0] store;
 //wire[7:0] out1;
-//wire PCLK;
+wire PCLK;
 
-/*prescaler1 prescaler1 (
+prescaler1 prescaler1 (
    .PCLK_k(PCLK_k),
    .PCLK(PCLK)
-   );*/
+   );
 
 APB apb (
     .PCLK(PCLK),
