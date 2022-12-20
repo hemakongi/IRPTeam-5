@@ -21,14 +21,9 @@
 
 module top1(
 
-//input clk,
-//output rstn,
-//output [31:0]out,
-//output newclk_k,
-//input [31:0]timer_in,
 
-//input PCLK_k,
-input PCLK,
+input PCLK_k,
+//input PCLK,
 input PRESETn,
 input PSEL,
 input PENABLE,
@@ -36,23 +31,23 @@ input PWRITE,
 input [7:0] PWDATA,
 
 output trig,
-output [7:0] PRDATA,
-output [7:0] timer_in,
-output newclk_k,
-output [7:0] out
+output [7:0] PRDATA
 
 );
 
 
 wire rstn;
-//wire PCLK;
+wire PCLK;
+wire [7:0] timer_in;
+wire newclk_k;
+wire [7:0] out;
 
 
 
-//prescaler1 prescaler1 (
-   // .PCLK_k(PCLK_k),
-    //.PCLK(PCLK)
-    //);
+prescaler1 prescaler1 (
+    .PCLK_k(PCLK_k),
+    .PCLK(PCLK)
+    );
 
 APB apb (
     .PCLK(PCLK),
@@ -64,7 +59,6 @@ APB apb (
     .timer_in(timer_in),
     .PRDATA(PRDATA),
 .out(out)
-//.pclk_k(pclk_k)
 
     );
 
@@ -78,7 +72,6 @@ counter1 counter1 (
 .newclk_k(newclk_k),
 .rstn(rstn),
 .out(out)
-//.out1(out1)
 );
 
 comparator comparator(
