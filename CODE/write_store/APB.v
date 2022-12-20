@@ -26,8 +26,6 @@ input PSEL,
 input PWRITE,
 input [7:0] PWDATA,
 input [1:0]PADDR,
-//input  [7:0] store,
-//input [7:0] out1,
 
 
 output reg  [7:0] timer_in,
@@ -95,19 +93,6 @@ begin
 next_state <= read;
 end
 end
-
-
-/*read:
-begin
-if(PSEL == 1'b1 && PENABLE == 1'b1 && PWRITE==1'b0)
-begin
-PRDATA <= out1;
-end
-else
-begin
-next_state <= setup;
-end
-end*/
 
 
 
